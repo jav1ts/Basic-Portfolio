@@ -1,7 +1,10 @@
 body {
-    background-color: grey;
+    background-color: lightgrey;
     margin: 0;
     color: #777777;
+    font-family: 'Arial', Helvetica Neue, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
 }
 
 h1, h2, h3 {
@@ -13,8 +16,6 @@ h1, h2, h3 {
     height: auto;
     overflow: auto;
     width: 100%;
-    font-family: 'Arial', Helvetica Neue, Helvetica, sans-serif;
-    font-size: 16px;
     background-color: #ffffff;
     border-bottom: 2px #cccccc solid;
     margin-bottom: 50px;
@@ -72,9 +73,24 @@ h1, h2, h3 {
     width: 200px;
     height: 200px;
     background-color: black;
-    margin:  0% 5%;
+    margin:  0% 5% 2% 5%;
 }
 
 .text-spacing {
     margin: 5%;
+}
+
+footer {
+    border-top: 8px #4aaaa5 solid;
+    background-color: #666666;
+    margin-top: 150px;
+    height: 100px;
+    float: bottom;
+    vertical-align: text-bottom;
+}
+
+.footer-content {
+    color: #cccccc;
+    text-align: center;
+    font-size: 10px;
 }
